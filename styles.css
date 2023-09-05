@@ -11,6 +11,22 @@ header {
   padding: 10px;
 }
 
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 h1, h2, h3 {
   color: #333;
 }
@@ -26,8 +42,18 @@ svg {
 
 }
 
+.article {
+  margin-left: 20px;
+}
+
+.pagination-index {
+  /* background-color: #333; */
+  margin-bottom: 30px; 
+}
+
+
 footer {
-  position: ;
+  /* position: ; */
   background-color: #333;
   color: #fff;
   padding: 10px;
@@ -97,6 +123,7 @@ img {
   margin: 0 5px;
   /* color: #333; */
   text-decoration: none;
+  color: white;
 }
 
 .page-link.active {
@@ -158,10 +185,10 @@ img {
   cursor: pointer;
 }
 
-
-.body-aboutme {
+.aboutme-div {
   margin-left: 75px;
-  /* margin-top: 50px; */
+  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .photo-aboutme {
@@ -171,6 +198,22 @@ img {
   height: 100%;
   margin-right: 10px;
 
+}
+
+.aboutme-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 98.7%;
+  height: 50px;
+}
+
+.articles_create-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 98.7%;
+  height: 50px;
 }
 
 h1 {
@@ -224,4 +267,16 @@ td {
 
 .pd-left {
   text-align: left;
+}
+
+.img-articles-1 {
+  display: inline-flex;
+  height: 18px;
+  justify-content: space-between;
+}
+
+.img-articles-2 {
+  display: inline-flex;
+  height: 18px;
+  justify-content: space-between;
 }
