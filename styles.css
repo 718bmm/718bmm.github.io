@@ -1,0 +1,227 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.h2-aboutme:hover {
+  text-decoration: none;
+  color: green;
+}
+
+svg {
+  height: 40px;
+  width: 40px;
+
+}
+
+footer {
+  position: ;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#about-me {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.h2-articles {
+  margin-left: 40px;
+}
+
+img {
+  float: left;
+  /* margin: 10px; */
+  margin-bottom: 20px;
+  height: 100%;
+  margin-right: 10px;
+
+}
+
+.h1-article {
+  margin-left: 100px;
+  font-size: smaller;
+  color: gray;
+}
+
+.div-article {
+  border: 1px solid gray;
+  clear: left;
+  margin: 10px;
+  height: 150px;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.p-article {
+  color: black;
+  font-style: italic;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: medium;
+
+}
+
+.a-article {
+  font-size: smaller;
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+  margin-left: 0%;
+  text-decoration: none;
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.page-link {
+  display: inline-block;
+  margin: 0 5px;
+  /* color: #333; */
+  text-decoration: none;
+}
+
+.page-link.active {
+  font-weight: bold;
+}
+
+#newsletter {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+#newsletter input[type="email"] {
+  padding: 10px;
+}
+
+#newsletter button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#article-details,
+#about-me,
+#create-article {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+#article-details h1 {
+  margin-bottom: 10px;
+}
+
+#article-details .article-content {
+  margin-bottom: 20px;
+}
+
+#article-details .author-info {
+  color: #888;
+}
+
+#articles-create input[type="text"],
+#articles-create textarea,
+#articles-create input[type="date"] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+#articles-create button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+.body-aboutme {
+  margin-left: 75px;
+  /* margin-top: 50px; */
+}
+
+.photo-aboutme {
+  float: left;
+  /* margin: 10px; */
+  margin-bottom: 20px;
+  height: 100%;
+  margin-right: 10px;
+
+}
+
+h1 {
+  margin-left: 200px;
+  font-size: smaller;
+}
+
+table {
+  /* display: inline;
+  display: block;
+  display: inline-block; */
+  margin-left: 87px;
+  width: 1000px;
+  table-layout: fixed;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+thead th:nth-child(1) {
+  width: 20%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+
+/* odd - even  */
+tbody tr:nth-child(odd) {
+  background-color: #E7E9EB;
+}
+
+td {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pd-left {
+  text-align: left;
+}
